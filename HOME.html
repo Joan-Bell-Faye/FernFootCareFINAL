@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== REMIXICONS ===============-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <!--=============== FONT AWESOME ICONS ===============-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="styles.css" />
+    <!--=============== GOOGLE FONTS ===============-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!--=============== FAVICON ===============-->
+    <link
+      rel="icon"
+      href="logo_affiliations/LogoFernFootCareSVG.svg"
+      type="image/svg+xml"
+    />
+
+    <title>Home</title>
+  </head>
+  <body>
+    <!--=============== HEADER ===============-->
+    <header class="header">
+      <nav class="nav container">
+        <div class="nav__data">
+          <a href="HOME.html" class="nav__logo">
+            <img
+              src="logo_affiliations/LogoFernFootCareSVG.svg"
+              alt="Fern Foot Care logo"
+              class="nav__logo"
+            />FERN FOOT CARE
+          </a>
+
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="ri-menu-line nav__burger"></i>
+            <i class="ri-close-line nav__close"></i>
+          </div>
+        </div>
+
+        <!--=============== NAV MENU ===============-->
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li><a href="HOME.html" class="nav__link">HOME</a></li>
+
+            <!--=============== DROPDOWN 1 ===============-->
+            <li class="dropdown__item">
+              <div class="nav__link">
+                APPOINTMENTS<i class="ri-arrow-down-s-line dropdown__arrow"></i>
+              </div>
+
+              <ul class="dropdown__menu">
+                <li>
+                  <a href="APPOINTMENTS.html#app_types" class="dropdown__link">
+                    Appointment Types
+                  </a>
+                </li>
+                <li>
+                  <a href="APPOINTMENTS.html#loc_map" class="dropdown__link">
+                    Areas Covered
+                  </a>
+                </li>
+                <li>
+                  <a href="APPOINTMENTS.html#opening" class="dropdown__link">
+                    Opening Hours
+                  </a>
+                </li>
+              </ul>
+
+              <!--=============== DROPDOWN 2 ===============-->
+            </li>
+
+            <li class="dropdown__item">
+              <div class="nav__link">
+                TREATMENTS<i class="ri-arrow-down-s-line dropdown__arrow"></i>
+              </div>
+
+              <ul class="dropdown__menu" id="subNav-menu">
+                <li>
+                  <a href="TREATMENTS.html" class="dropdown__link">
+                    All Treatments
+                  </a>
+                </li>
+                <li>
+                  <a href="TREATMENTS.html#new-patient" class="dropdown__link">
+                    New Patient
+                  </a>
+                </li>
+                <li>
+                  <a href="TREATMENTS.html#nail-cutting" class="dropdown__link">
+                    Nail Cutting
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    href="TREATMENTS.html#ingrown-toenails"
+                    class="dropdown__link"
+                  >
+                    Ingrown Toenails
+                  </a>
+                </li>
+                <li>
+                  <a href="TREATMENTS.html#nail-surgery" class="dropdown__link">
+                    Nail Surgery
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="TREATMENTS.html#callus-corn-removal"
+                    class="dropdown__link"
+                  >
+                    Callus & Corn Removal
+                  </a>
+                </li>
+                <li>
+                  <a href="TREATMENTS.html#verrucae" class="dropdown__link">
+                    Verrucae
+                  </a>
+                </li>
+                <li>
+                  <a href="TREATMENTS.html#fungal-nail" class="dropdown__link">
+                    Fungal Nail Treatment
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="TREATMENTS.html#diabetic-foot"
+                    class="dropdown__link"
+                  >
+                    Diabetic Foot Assessment
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="TREATMENTS.html#foot-wound-care"
+                    class="dropdown__link"
+                  >
+                    Foot Wound Care
+                  </a>
+                </li>
+              </ul>
+            </li>
+
+            <li><a href="PRICES.html" class="nav__link">PRICES</a></li>
+
+            <!--=============== DROPDOWN 3 ===============-->
+            <li class="dropdown__item">
+              <div class="nav__link">
+                CONTACT <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+              </div>
+
+              <ul class="dropdown__menu">
+                <li>
+                  <a href="CONTACT_US.html#contact_form" class="dropdown__link">
+                    <i class="ri-user-line"></i> Enquiry Form
+                  </a>
+                </li>
+
+                <li>
+                  <a href="tel:01234567890" class="dropdown__link">
+                    <i class="ri-phone-line"></i> Call Us
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    href="mailto:fernfootcare@hotmail.com"
+                    class="dropdown__link"
+                  >
+                    <i class="ri-mail-line"></i> Email Us
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    href="https://www.facebook.com/fernfootcaremobilepractitioner/"
+                    class="dropdown__link"
+                  >
+                    <i class="ri-facebook-box-fill"></i> Facebook
+                  </a>
+                </li>
+
+                <li>
+                  <a href="https://www.instagram.com/" class="dropdown__link">
+                    <i class="ri-instagram-fill"></i> Instagram
+                  </a>
+                </li>
+
+                <li>
+                  <a href="https://www.linkedin.com/" class="dropdown__link">
+                    <i class="ri-linkedin-box-fill"></i> LinkedIn
+                  </a>
+                </li>
+              </ul>
+            </li>
+
+            <!--=============== DROPDOWN 4 ===============-->
+            <li class="dropdown__item">
+              <div class="nav__link">
+                REVIEWS <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+              </div>
+
+              <ul class="dropdown__menu">
+                <li>
+                  <a href="REVIEWS.html" class="dropdown__link">
+                    <i class="ri-user-line"></i> Read Reviews
+                  </a>
+                </li>
+
+                <li>
+                  <a href="REVIEWS.html#section_rvs" class="dropdown__link">
+                    <i class="ri-star-line"></i>Review Us
+                  </a>
+                </li>
+              </ul>
+            </li>
+
+            <li><a href="NEWS.html" class="nav__link">NEWS</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <!--______HEADER END____-->
+
+    <main id="main">
+      <!--=============== HERO SECTION ===============-->
+      <section
+        class="background-image-container-home background-image-container"
+      >
+        <div class="flex-container">
+          <div class="hero-text-bg">
+            <h1 class="hero-h1">
+              Welcome to Fern Foot Care, your local mobile foot care service.
+            </h1>
+            <h3 class="hero-h3">
+              Let us help you achieve the healthy feet you deserve!
+            </h3>
+          </div>
+          <a href="CONTACT_US.html#contact_link" class="hero-button button"
+            >Get in touch today!</a
+          >
+        </div>
+      </section>
+      <!--________HERO SECTION END_______-->
+
+      <!--================ 'WHAT WE OFFER' SECTION ================ -->
+      <section class="services">
+        <h2>What We Offer</h2>
+        <div class="cards">
+          <div class="card">
+            <img src="icons/squarewithmedicalcross.svg" alt="medical icon" />
+            <h3>Professionally Registered</h3>
+            <p>
+              Registered with the Health Care Professions Council, College of
+              Foot Health Practitioners and Nursing and Midwifery Council.
+              Provider of the most up-to-date clinical care.
+            </p>
+          </div>
+          <div class="card">
+            <img src="icons/footprints.svg" alt="footprints icon" />
+            <h3>Treatments</h3>
+            <p>
+              We offer a full range of foot care treatments and services for all
+              ages. Each patient receives an individually tailored treatment
+              plan for their needs.
+            </p>
+          </div>
+          <div class="card">
+            <img src="icons/homehealth.svg" alt="home visits icon" />
+            <h3>Home Visits</h3>
+            <p>
+              Treatments provided in the comfort of your own home. We offer
+              visits wherever you are, including rural locations.
+            </p>
+          </div>
+          <div class="card">
+            <img src="icons/homepin.svg" alt="home location Icon" />
+            <h3>Local Service</h3>
+            <p>
+              We cover the areas of Kirriemuir, Brechin, Forfar, and Dundee. We
+              work with local GP's and other health providers.
+            </p>
+          </div>
+          <div class="card">
+            <img src="icons/groups.svg" alt="family and friends Icon" />
+            <h3>Family & Friends</h3>
+            <p>
+              Appointments are offered on an individual or group basis for
+              friends, families and those in care settings.
+            </p>
+          </div>
+          <div class="card">
+            <img src="icons/verifiedbadge.svg" alt="fully insured Icon" />
+            <h3>Fully Insured</h3>
+            <p>
+              All of our treatments and services are fully insured for your
+              peace of mind.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!--========= MAP SECTION =========-->
+      <section class="map-section">
+        <h2>Areas We Cover</h2>
+        <div class="section-container">
+          <div class="list-container">
+            <span class="location"
+              ><i class="ri-map-pin-5-fill location-pin"></i>Noranside</span
+            >
+            <span class="location"
+              ><i class="ri-map-pin-5-fill location-pin"></i>Glamis</span
+            >
+            <span class="location"
+              ><i class="ri-map-pin-5-fill location-pin"></i>Fern</span
+            >
+            <span class="location"
+              ><i class="ri-map-pin-5-fill location-pin"></i>Kirriemuir</span
+            >
+            <span class="location"
+              ><i class="ri-map-pin-5-fill location-pin"></i>Forfar</span
+            >
+            <span class="location"
+              ><i class="ri-map-pin-5-fill location-pin"></i>Brechin</span
+            >
+            <span class="location"
+              ><i class="ri-map-pin-5-fill location-pin"></i>Dundee</span
+            >
+            <span class="location"
+              ><i class="ri-map-pin-5-fill location-pin"></i>Broughty
+              Ferry</span
+            >
+          </div>
+          <div class="map-container">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d280638.43245786376!2d-3.1864646975339905!3d56.6658628470063!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48867ce5c8e66a73%3A0xa0c681c77df1d20!2sNoranside%2C%20Forfar%20DD8%203QZ!5e0!3m2!1sen!2suk!4v1737738947574!5m2!1sen!2suk"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              id="Iframe"
+            ></iframe>
+          </div>
+          <span class="location"
+            ><i class="ri-questionnaire-fill location-pin"></i>Can't see your
+            location? Don't worry!<a href="CONTACT_US.html#contact_link">
+              Get in touch</a
+            >
+            to check whether we cover your area.</span
+          >
+        </div>
+      </section>
+      <!--_________End Map Section_______-->
+
+      <!--========= DISCOVER FERN FOOT CARE SECTION =========-->
+      <section class="highlights-section">
+        <h2>Discover Fern Foot Care</h2>
+        <div class="highlights-container">
+          <div class="highlight-card">
+            <h3>Got a question?</h3>
+            <p>
+              We would love to hear from you with your enquiry. Get in touch
+              today!
+            </p>
+            <a href="CONTACT_US.html" class="btn-secondary button"
+              >CONTACT US</a
+            >
+          </div>
+          <div class="highlight-card">
+            <h3>Treatment List</h3>
+            <p>
+              Not sure which treatment you need? Browse our treatments list
+              here!
+            </p>
+            <a href="TREATMENTS.html" class="btn-secondary button"
+              >TREATMENTS</a
+            >
+          </div>
+          <div class="highlight-card">
+            <h3>Foot News</h3>
+            <p>
+              Looking for foot news or self care advice? Read our lastest
+              articles here!
+            </p>
+            <a href="NEWS.html" class="btn-secondary button">NEWS</a>
+          </div>
+          <div class="highlight-card">
+            <h3>Read Reviews</h3>
+            <p>
+              Do you want to know what other people are saying about our
+              services!
+            </p>
+            <a href="REVIEWS.html" class="btn-secondary button">READ REVIEWS</a>
+          </div>
+        </div>
+      </section>
+
+      <!--========= CALL SECTION =========-->
+      <section class="call-section">
+        <h2>Get In Touch</h2>
+        <h3 class="hero-h3">
+          <span>Call, email or complete an enquiry now</span> to find out more
+          about our services and treatments.
+        </h3>
+        <div class="call-container">
+          <div class="call-item">
+            <a href="tel:01234567890" class="call-hero-button button">
+              <i class="ri-phone-fill"></i>
+            </a>
+            <p>call</p>
+          </div>
+          <div class="call-item">
+            <a href="mailto:4tHtM@example.com" class="call-hero-button button">
+              <i class="ri-mail-fill"></i
+            ></a>
+            <p>email</p>
+          </div>
+          <div class="call-item">
+            <a href="CONTACT_US.html" class="call-hero-button button">
+              <i class="ri-survey-fill"></i
+            ></a>
+            <p>enquire</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!--================ FOOTER =================-->
+    <footer>
+      <!--Footer Links-->
+      <div class="footer-div">
+        <div class="footer-links">
+          <ul>
+            <li>
+              <a href="HOME.html">
+                <img
+                  src="logo_affiliations/LogoFernFootCareSVG.svg"
+                  alt="Fern Foot Care logo"
+              /></a>
+            </li>
+          </ul>
+
+          <ul>
+            <li><h3>QUICK LINKS</h3></li>
+            <li><a href="TREATMENTS.html">Treatments</a></li>
+            <li><a href="APPOINTMENTS.html">Appointments</a></li>
+            <li><a href="PRICES.html">Prices</a></li>
+            <li><a href="CONTACT_US.html">Contact</a></li>
+            <li><a href="REVIEWS.html">Reviews</a></li>
+            <li><a href="NEWS.html">News</a></li>
+          </ul>
+          <ul>
+            <li><h3>POLICIES</h3></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms & Conditions</a></li>
+            <li><a href="#">Disclaimer</a></li>
+          </ul>
+          <ul>
+            <li><h3>ABOUT US</h3></li>
+            <li><a href="#">Business Bio</a></li>
+            <li><a href="#">Our Vision</a></li>
+            <li><a href="#">Professional Standards</a></li>
+            <li><a href="#">Our Healthcare Associates</a></li>
+          </ul>
+        </div>
+      </div>
+      <!--footer affiliations-->
+      <div>
+        <ul class="affiliations">
+          <li>
+            <a href="https://www.collegefhp.com/"
+              ><img
+                src="logo_affiliations/PNGCollegeoffoothealthpractitioners.png"
+                alt="College of foot health practitioners badge"
+                class="badge"
+            /></a>
+          </li>
+          <li>
+            <a href="https://www.thealliancepsp.com/"
+              ><img
+                src="logo_affiliations/PNGallianceofprivatesectorpractitioners.png"
+                alt="Alliance of private sector practitioners badge"
+                class="badge"
+            /></a>
+          </li>
+          <li>
+            <a href="https://www.nmc.org.uk/"
+              ><img
+                src="logo_affiliations/PNGNursingandmidwiferycouncil.png"
+                alt="Nursing and midwifery council badge"
+                class="badge"
+            /></a>
+          </li>
+          <li>
+            <a href="https://www.hcpc-uk.org/"
+              ><img
+                src="logo_affiliations/PNGhealthandcareprofessionscouncil.png"
+                alt="Health and care professions council badge"
+                class="badge"
+            /></a>
+          </li>
+          <li>
+            <a href="https://www.balens.co.uk/"
+              ><img
+                src="logo_affiliations/Balensinsurance.png"
+                class="badge"
+                alt="Balens insurance badge"
+            /></a>
+          </li>
+        </ul>
+      </div>
+
+      <!--Copyright-->
+      <div>
+        <ul class="copyright">
+          <li><b>Fern Foot Care Ltd &copy;</b></li>
+          <li>All Rights Reserved</li>
+          <li>
+            <a href="https://www.schemadesign.co.uk"
+              >Website by ScheMa Design &copy;</a
+            >
+          </li>
+        </ul>
+      </div>
+    </footer>
+    <!--=============== JavaScript ===============-->
+    <script src="main.js"></script>
+  </body>
+</html>

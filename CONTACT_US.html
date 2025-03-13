@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== REMIXICONS ===============-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <!--=============== FONT AWESOME ICONS ===============-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="styles.css" />
+    <!--=============== GOOGLE FONTS ===============-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!--=============== FAVICON ===============-->
+    <link
+      rel="icon"
+      href="logo_affiliations/LogoFernFootCareSVG.svg"
+      type="image/svg+xml"
+    />
+
+    <title>Contact Us</title>
+  </head>
+  <body>
+    <!--=============== HEADER ===============-->
+    <header class="header">
+      <nav class="nav container">
+        <div class="nav__data">
+          <a href="HOME.html" class="nav__logo">
+            <img
+              src="logo_affiliations/LogoFernFootCareSVG.svg"
+              alt="Fern Foot Care logo"
+              class="nav__logo"
+            />FERN FOOT CARE
+          </a>
+
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="ri-menu-line nav__burger"></i>
+            <i class="ri-close-line nav__close"></i>
+          </div>
+        </div>
+
+        <!--=============== NAV MENU ===============-->
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li><a href="HOME.html" class="nav__link">HOME</a></li>
+
+            <!--=============== DROPDOWN 1 ===============-->
+            <li class="dropdown__item">
+              <div class="nav__link">
+                APPOINTMENTS<i class="ri-arrow-down-s-line dropdown__arrow"></i>
+              </div>
+
+              <ul class="dropdown__menu">
+                <li>
+                  <a href="APPOINTMENTS.html#app_types" class="dropdown__link">
+                    Appointment Types
+                  </a>
+                </li>
+                <li>
+                  <a href="APPOINTMENTS.html#loc_map" class="dropdown__link">
+                    Areas Covered
+                  </a>
+                </li>
+                <li>
+                  <a href="APPOINTMENTS.html#opening" class="dropdown__link">
+                    Opening Hours
+                  </a>
+                </li>
+              </ul>
+
+              <!--=============== DROPDOWN 2 ===============-->
+            </li>
+
+            <li class="dropdown__item">
+              <div class="nav__link">
+                TREATMENTS<i class="ri-arrow-down-s-line dropdown__arrow"></i>
+              </div>
+
+              <ul class="dropdown__menu" id="subNav-menu">
+                <li>
+                  <a href="TREATMENTS.html" class="dropdown__link">
+                    All Treatments
+                  </a>
+                </li>
+                <li>
+                  <a href="TREATMENTS.html#new-patient" class="dropdown__link">
+                    New Patient
+                  </a>
+                </li>
+                <li>
+                  <a href="TREATMENTS.html#nail-cutting" class="dropdown__link">
+                    Nail Cutting
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    href="TREATMENTS.html#ingrown-toenails"
+                    class="dropdown__link"
+                  >
+                    Ingrown Toenails
+                  </a>
+                </li>
+                <li>
+                  <a href="TREATMENTS.html#nail-surgery" class="dropdown__link">
+                    Nail Surgery
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="TREATMENTS.html#callus-corn-removal"
+                    class="dropdown__link"
+                  >
+                    Callus & Corn Removal
+                  </a>
+                </li>
+                <li>
+                  <a href="TREATMENTS.html#verrucae" class="dropdown__link">
+                    Verrucae
+                  </a>
+                </li>
+                <li>
+                  <a href="TREATMENTS.html#fungal-nail" class="dropdown__link">
+                    Fungal Nail Treatment
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="TREATMENTS.html#diabetic-foot"
+                    class="dropdown__link"
+                  >
+                    Diabetic Foot Assessment
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="TREATMENTS.html#foot-wound-care"
+                    class="dropdown__link"
+                  >
+                    Foot Wound Care
+                  </a>
+                </li>
+              </ul>
+            </li>
+
+            <li><a href="PRICES.html" class="nav__link">PRICES</a></li>
+
+            <!--=============== DROPDOWN 3 ===============-->
+            <li class="dropdown__item">
+              <div class="nav__link">
+                CONTACT <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+              </div>
+
+              <ul class="dropdown__menu">
+                <li>
+                  <a href="CONTACT_US.html#contact_form" class="dropdown__link">
+                    <i class="ri-user-line"></i> Enquiry Form
+                  </a>
+                </li>
+
+                <li>
+                  <a href="tel:01234567890" class="dropdown__link">
+                    <i class="ri-phone-line"></i> Call Us
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    href="mailto:fernfootcare@hotmail.com"
+                    class="dropdown__link"
+                  >
+                    <i class="ri-mail-line"></i> Email Us
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    href="https://www.facebook.com/fernfootcaremobilepractitioner/"
+                    class="dropdown__link"
+                  >
+                    <i class="ri-facebook-box-fill"></i> Facebook
+                  </a>
+                </li>
+
+                <li>
+                  <a href="https://www.instagram.com/" class="dropdown__link">
+                    <i class="ri-instagram-fill"></i> Instagram
+                  </a>
+                </li>
+
+                <li>
+                  <a href="https://www.linkedin.com/" class="dropdown__link">
+                    <i class="ri-linkedin-box-fill"></i> LinkedIn
+                  </a>
+                </li>
+              </ul>
+            </li>
+
+            <!--=============== DROPDOWN 4 ===============-->
+            <li class="dropdown__item">
+              <div class="nav__link">
+                REVIEWS <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+              </div>
+
+              <ul class="dropdown__menu">
+                <li>
+                  <a href="REVIEWS.html" class="dropdown__link">
+                    <i class="ri-user-line"></i> Read Reviews
+                  </a>
+                </li>
+
+                <li>
+                  <a href="REVIEWS.html#section_rvs" class="dropdown__link">
+                    <i class="ri-star-line"></i>Review Us
+                  </a>
+                </li>
+              </ul>
+            </li>
+
+            <li><a href="NEWS.html" class="nav__link">NEWS</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <!--______HEADER END____-->
+
+    <main>
+      <section
+        class="background-image-container-contact-us background-image-container"
+      >
+        <div class="flex-container">
+          <div class="hero-text-bg" id="contact_link">
+            <h1 class="hero-h1">Contact Us</h1>
+            <h3 class="hero-h3">We would love to hear from you!</h3>
+            <h4 class="hero-h4">
+              Fill out the form below with your requested treatment, query or to
+              book an appointment and we'll get back to you as soon as possible.
+            </h4>
+          </div>
+          <a href="CONTACT_US.html#contact_form" class="hero-button button"
+            >CONTACT FORM</a
+          >
+        </div>
+      </section>
+      <!--________HERO SECTION END_______-->
+
+      <!--==== GET IN TOUCH BANNER SECTION =====-->
+      <section class="get-in-touch-banner">
+        <h2>Send Us An Enquiry</h2>
+        <h3>
+          <i class="ri-footprint-line"></i>
+          <span class="green"
+            ><em>Let's get you back to happy, healthy feet!</em></span
+          >
+        </h3>
+      </section>
+      <!--END of GET IN TOUCH BANNER SECTION-->
+
+      <!-- CONTACT FORM-->
+      <section class="contactUs-form-section" id="contact_form">
+        <div class="form-container">
+          <p class="required-p">
+            Required fields are followed by <span class="asterix_span"> *</span>
+          </p>
+
+          <form id="survey-form" onsubmit="return validateSurveyForm()">
+            <div class="form-input">
+              <label for="name-label"
+                >Name <span class="asterix_span"> *</span></label
+              >
+              <input
+                type="text"
+                id="name-label"
+                placeholder="Enter your name"
+                class="form-input-size"
+                minlength="3"
+                title="Enter your name here (minimum 3 characters)"
+                required
+              />
+            </div>
+            <div class="form-input">
+              <label for="email-label">Email</label>
+              <input
+                type="email"
+                id="email-label"
+                placeholder="Enter your email"
+                class="form-input-size"
+                title="Enter an email address in the format of 'example@example.com"
+              />
+            </div>
+            <div class="form-input">
+              <label for="number-label"
+                >Phone No.<span class="asterix_span"> *</span>
+              </label>
+              <input
+                id="number-label"
+                pattern="[+]{1}[0-9]{10}|[0-9]{11}|[+][0-9]{11}|[0-9]{5}['']{1}[0-9]{6}"
+                placeholder="Enter your telephone number"
+                title="Enter your preferred contact number, without spaces or (+) symbols"
+                class="form-input-size"
+                required
+              />
+            </div>
+
+            <div class="form-input">
+              <p class="p-label">Are you an existing customer?</p>
+              <div class="radio-div">
+                <input
+                  type="radio"
+                  name="customer"
+                  id="radio-btn-existing"
+                  value="ExistingCustomer"
+                  required
+                />
+                <p>Yes</p>
+              </div>
+              <div class="radio-div">
+                <input
+                  type="radio"
+                  name="customer"
+                  id="radio-btn-new"
+                  value="NewCustomer"
+                />
+                <p>No</p>
+              </div>
+            </div>
+
+            <div class="form-input">
+              <p class="p-label">Is the enquiry for you?</p>
+              <div class="radio-div">
+                <input
+                  type="radio"
+                  name="who"
+                  id="radio-btn-self"
+                  value="For self"
+                  required
+                />
+                <p>For me</p>
+              </div>
+              <div class="radio-div">
+                <input
+                  type="radio"
+                  name="who"
+                  id="radio-btn-another"
+                  value="Someone else"
+                />
+                <p>Someone else</p>
+              </div>
+            </div>
+
+            <div class="form-input">
+              <p class="p-label">I would like treatment information on:</p>
+              <select id="dropdown" class="form-input-size" required>
+                <option
+                  disabled
+                  selected
+                  value=""
+                  title="Please indicate your enquiry type from the list"
+                >
+                  Select enquiry:
+                </option>
+                <option value="Appointments">Appointments</option>
+                <option value="Nail Cutting">Nail Cutting</option>
+                <option value="Ingrown Toenails">Ingrown Toenails</option>
+                <option value="Nail Surgery">Nail Surgery</option>
+                <option value="Callus & Corns">Callus & Corns</option>
+                <option value="Verruca">Verruca</option>
+                <option value="Fungal Nail">Fungal Nail</option>
+                <option value="Diabetic Footcare">Diabetic Footcare</option>
+                <option value="Foot Wound Care">Foot Wound Care</option>
+                <option value="Other">Other</option>
+              </select>
+            </div>
+
+            <div class="form-input">
+              <p class="p-label">
+                How should we contact you?<span class="asterix_span"> *</span>
+              </p>
+              <div class="radio-div">
+                <input
+                  type="radio"
+                  name="answer"
+                  id="radio-btn-tel"
+                  value="telephone"
+                  required
+                />
+                <p>Telephone</p>
+              </div>
+              <div class="radio-div">
+                <input
+                  type="radio"
+                  name="answer"
+                  id="radio-btn-email"
+                  value="email"
+                />
+                <p>Email</p>
+              </div>
+              <div class="radio-div">
+                <input
+                  type="radio"
+                  name="answer"
+                  id="radio-btn-text"
+                  value="text"
+                  checked
+                />
+                <p>Text</p>
+              </div>
+              <div class="radio-div">
+                <input
+                  type="radio"
+                  name="answer"
+                  id="radio-btn-whatsapp"
+                  value="whatsapp"
+                />
+                <p>Whatsapp</p>
+              </div>
+            </div>
+
+            <div class="form-input">
+              <p>
+                Please tell us more about your enquiry:<span
+                  class="asterix_span"
+                >
+                  *</span
+                >
+              </p>
+              <textarea
+                id="textarea"
+                placeholder="Describe what we can help you with here..."
+                title="Please describe what we can help you with here"
+                minlength="5"
+                required
+              ></textarea>
+            </div>
+
+            <div class="form-input">
+              <label for="check-box"
+                ><input
+                  type="checkbox"
+                  id="check-box"
+                  value="consent"
+                  title="Please provied consent to share your information with Fern Foot Care by ticking the box"
+                  required
+                />
+
+                <span class="consent_span"
+                  >* By ticking this box, I agree that to proceed with my
+                  enquiry, I consent to share my personal information with the
+                  business.</span
+                >
+              </label>
+            </div>
+
+            <div class="form-input">
+              <button type="submit" id="submit">Submit Enquiry</button>
+            </div>
+          </form>
+        </div>
+        <!--success message box-->
+        <div class="success_bg hide" id="success_blur">
+          <div class="success hide" id="successMsgDiv">
+            <button id="close_btn" onclick="closeMessage()">X</button>
+            <img
+              src="logo_affiliations/LogoFernFootCareSVG.svg"
+              alt="Fern Foot Care logo"
+            />
+            <h2>Thank you for your enquiry!</h2>
+            <h4>We will get back to you as soon as possible.</h4>
+          </div>
+        </div>
+        <!--end of success message-->
+      </section>
+      <!--____END of contact form____-->
+      <div class="mini-contact-section contact-page">
+        <div class="mini-contact-container">
+          <div class="mini-contact">
+            <a href="tel:01234567890">
+              <ul class="mini-contact-list">
+                <li><i class="ri-phone-fill"></i></li>
+                <li>01234 567890</li>
+              </ul>
+            </a>
+          </div>
+          <div class="mini-contact">
+            <a href="mailto:fernfootcare@hotmail.com">
+              <ul class="mini-contact-list">
+                <li><i class="ri-mail-fill"></i></li>
+                <li>fernfootcare@hotmail.com</li>
+              </ul>
+            </a>
+          </div>
+          <div class="mini-contact">
+            <a href="https://www.facebook.com/fernfootcaremobilepractitioner/">
+              <ul class="mini-contact-list">
+                <li><i class="ri-facebook-box-fill"></i></li>
+                <li>fernfootcaremobilepractitioner</li>
+              </ul>
+            </a>
+          </div>
+          <div class="mini-contact">
+            <a href="https://www.instagram.com">
+              <ul class="mini-contact-list">
+                <li><i class="ri-instagram-fill"></i></li>
+                <li>@fernfootcare_uk</li>
+              </ul>
+            </a>
+          </div>
+          <div class="mini-contact">
+            <a href="https://www.linkedin.com/">
+              <ul class="mini-contact-list">
+                <li><i class="ri-linkedin-fill"></i></li>
+                <li>/company/FernFootCare</li>
+              </ul>
+            </a>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!--================ FOOTER =================-->
+    <footer>
+      <!--Footer Links-->
+      <div class="footer-div">
+        <div class="footer-links">
+          <ul>
+            <li>
+              <a href="HOME.html">
+                <img
+                  src="logo_affiliations/LogoFernFootCareSVG.svg"
+                  alt="Fern Foot Care logo"
+              /></a>
+            </li>
+          </ul>
+
+          <ul>
+            <li><h3>QUICK LINKS</h3></li>
+            <li><a href="TREATMENTS.html">Treatments</a></li>
+            <li><a href="APPOINTMENTS.html">Appointments</a></li>
+            <li><a href="PRICES.html">Prices</a></li>
+            <li><a href="CONTACT_US.html">Contact</a></li>
+            <li><a href="REVIEWS.html">Reviews</a></li>
+            <li><a href="NEWS.html">News</a></li>
+          </ul>
+          <ul>
+            <li><h3>POLICIES</h3></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms & Conditions</a></li>
+            <li><a href="#">Disclaimer</a></li>
+          </ul>
+          <ul>
+            <li><h3>ABOUT US</h3></li>
+            <li><a href="#">Business Bio</a></li>
+            <li><a href="#">Our Vision</a></li>
+            <li><a href="#">Professional Standards</a></li>
+            <li><a href="#">Our Healthcare Associates</a></li>
+          </ul>
+        </div>
+      </div>
+      <!--footer affiliations-->
+      <div>
+        <ul class="affiliations">
+          <li>
+            <a href="https://www.collegefhp.com/"
+              ><img
+                src="logo_affiliations/PNGCollegeoffoothealthpractitioners.png"
+                alt="College of foot health practitioners badge"
+                class="badge"
+            /></a>
+          </li>
+          <li>
+            <a href="https://www.thealliancepsp.com/"
+              ><img
+                src="logo_affiliations/PNGallianceofprivatesectorpractitioners.png"
+                alt="Alliance of private sector practitioners badge"
+                class="badge"
+            /></a>
+          </li>
+          <li>
+            <a href="https://www.nmc.org.uk/"
+              ><img
+                src="logo_affiliations/PNGNursingandmidwiferycouncil.png"
+                alt="Nursing and midwifery council badge"
+                class="badge"
+            /></a>
+          </li>
+          <li>
+            <a href="https://www.hcpc-uk.org/"
+              ><img
+                src="logo_affiliations/PNGhealthandcareprofessionscouncil.png"
+                alt="Health and care professions council badge"
+                class="badge"
+            /></a>
+          </li>
+          <li>
+            <a href="https://www.balens.co.uk/"
+              ><img
+                src="logo_affiliations/Balensinsurance.png"
+                class="badge"
+                alt="Balens insurance badge"
+            /></a>
+          </li>
+        </ul>
+      </div>
+
+      <!--Copyright-->
+      <div>
+        <ul class="copyright">
+          <li><b>Fern Foot Care Ltd &copy;</b></li>
+          <li>All Rights Reserved</li>
+          <li>
+            <a href="https://www.schemadesign.co.uk"
+              >Website by ScheMa Design &copy;</a
+            >
+          </li>
+        </ul>
+      </div>
+    </footer>
+    <!--=============== JavaScript ===============-->
+    <script src="main.js"></script>
+  </body>
+</html>

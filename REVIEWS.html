@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== REMIXICONS ===============-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <!--=============== FONT AWESOME ICONS ===============-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="styles.css" />
+    <!--=============== GOOGLE FONTS ===============-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!--=============== FAVICON ===============-->
+    <link
+      rel="icon"
+      href="logo_affiliations/LogoFernFootCareSVG.svg"
+      type="image/svg+xml"
+    />
+
+    <title>Reviews</title>
+  </head>
+  <body onload="carousel(rev)">
+    <!--=============== HEADER ===============-->
+    <header class="header">
+      <nav class="nav container">
+        <div class="nav__data">
+          <a href="HOME.html" class="nav__logo">
+            <img
+              src="logo_affiliations/LogoFernFootCareSVG.svg"
+              alt="Fern Foot Care logo"
+              class="nav__logo"
+            />FERN FOOT CARE
+          </a>
+
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="ri-menu-line nav__burger"></i>
+            <i class="ri-close-line nav__close"></i>
+          </div>
+        </div>
+
+        <!--=============== NAV MENU ===============-->
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li><a href="HOME.html" class="nav__link">HOME</a></li>
+
+            <!--=============== DROPDOWN 1 ===============-->
+            <li class="dropdown__item">
+              <div class="nav__link">
+                APPOINTMENTS<i class="ri-arrow-down-s-line dropdown__arrow"></i>
+              </div>
+
+              <ul class="dropdown__menu">
+                <li>
+                  <a href="APPOINTMENTS.html#app_types" class="dropdown__link">
+                    Appointment Types
+                  </a>
+                </li>
+                <li>
+                  <a href="APPOINTMENTS.html#loc_map" class="dropdown__link">
+                    Areas Covered
+                  </a>
+                </li>
+                <li>
+                  <a href="APPOINTMENTS.html#opening" class="dropdown__link">
+                    Opening Hours
+                  </a>
+                </li>
+              </ul>
+
+              <!--=============== DROPDOWN 2 ===============-->
+            </li>
+
+            <li class="dropdown__item">
+              <div class="nav__link">
+                TREATMENTS<i class="ri-arrow-down-s-line dropdown__arrow"></i>
+              </div>
+
+              <ul class="dropdown__menu" id="subNav-menu">
+                <li>
+                  <a href="TREATMENTS.html" class="dropdown__link">
+                    All Treatments
+                  </a>
+                </li>
+                <li>
+                  <a href="TREATMENTS.html#new-patient" class="dropdown__link">
+                    New Patient
+                  </a>
+                </li>
+                <li>
+                  <a href="TREATMENTS.html#nail-cutting" class="dropdown__link">
+                    Nail Cutting
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    href="TREATMENTS.html#ingrown-toenails"
+                    class="dropdown__link"
+                  >
+                    Ingrown Toenails
+                  </a>
+                </li>
+                <li>
+                  <a href="TREATMENTS.html#nail-surgery" class="dropdown__link">
+                    Nail Surgery
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="TREATMENTS.html#callus-corn-removal"
+                    class="dropdown__link"
+                  >
+                    Callus & Corn Removal
+                  </a>
+                </li>
+                <li>
+                  <a href="TREATMENTS.html#verrucae" class="dropdown__link">
+                    Verrucae
+                  </a>
+                </li>
+                <li>
+                  <a href="TREATMENTS.html#fungal-nail" class="dropdown__link">
+                    Fungal Nail Treatment
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="TREATMENTS.html#diabetic-foot"
+                    class="dropdown__link"
+                  >
+                    Diabetic Foot Assessment
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="TREATMENTS.html#foot-wound-care"
+                    class="dropdown__link"
+                  >
+                    Foot Wound Care
+                  </a>
+                </li>
+              </ul>
+            </li>
+
+            <li><a href="PRICES.html" class="nav__link">PRICES</a></li>
+
+            <!--=============== DROPDOWN 3 ===============-->
+            <li class="dropdown__item">
+              <div class="nav__link">
+                CONTACT <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+              </div>
+
+              <ul class="dropdown__menu">
+                <li>
+                  <a href="CONTACT_US.html#contact_form" class="dropdown__link">
+                    <i class="ri-user-line"></i> Enquiry Form
+                  </a>
+                </li>
+
+                <li>
+                  <a href="tel:01234567890" class="dropdown__link">
+                    <i class="ri-phone-line"></i> Call Us
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    href="mailto:fernfootcare@hotmail.com"
+                    class="dropdown__link"
+                  >
+                    <i class="ri-mail-line"></i> Email Us
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    href="https://www.facebook.com/fernfootcaremobilepractitioner/"
+                    class="dropdown__link"
+                  >
+                    <i class="ri-facebook-box-fill"></i> Facebook
+                  </a>
+                </li>
+
+                <li>
+                  <a href="https://www.instagram.com/" class="dropdown__link">
+                    <i class="ri-instagram-fill"></i> Instagram
+                  </a>
+                </li>
+
+                <li>
+                  <a href="https://www.linkedin.com/" class="dropdown__link">
+                    <i class="ri-linkedin-box-fill"></i> LinkedIn
+                  </a>
+                </li>
+              </ul>
+            </li>
+
+            <!--=============== DROPDOWN 4 ===============-->
+            <li class="dropdown__item">
+              <div class="nav__link">
+                REVIEWS <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+              </div>
+
+              <ul class="dropdown__menu">
+                <li>
+                  <a href="REVIEWS.html" class="dropdown__link">
+                    <i class="ri-user-line"></i> Read Reviews
+                  </a>
+                </li>
+
+                <li>
+                  <a href="REVIEWS.html#section_rvs" class="dropdown__link">
+                    <i class="ri-star-line"></i>Review Us
+                  </a>
+                </li>
+              </ul>
+            </li>
+
+            <li><a href="NEWS.html" class="nav__link">NEWS</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <!--______HEADER END____-->
+
+    <main id="main">
+      <!--=============== HERO SECTION ===============-->
+      <section
+        class="background-image-container-reviews background-image-container"
+      >
+        <div class="flex-container">
+          <div class="hero-text-bg">
+            <h1 class="hero-h1">
+              Reviews <span class="hero-span">&</span> Testimonials
+            </h1>
+            <h3 class="hero-h3">Dont just take our word for it!</h3>
+            <h4 class="hero-h4">Check out what our clients have to say...</h4>
+          </div>
+          <a href="REVIEWS.html#section_rvs" class="hero-button button"
+            >Leave Feedback!</a
+          >
+        </div>
+      </section>
+      <!--________HERO SECTION END_______-->
+
+      <!--=====CAROUSEL REVIEWS======-->
+      <section class="reviews">
+        <h2>Read Our Reviews</h2>
+        <div class="carousel-container review">
+          <div class="ca-card">
+            <div class="img_container">
+              <img src="Reviews/family.jpeg" alt="Family" class="ca-img" />
+              <p class="review-stars">
+                <i class="ri-star-fill"
+                  ><i class="ri-star-fill"
+                    ><i class="ri-star-fill"
+                      ><i class="ri-star-fill"
+                        ><i class="ri-star-fill"></i></i></i></i
+                ></i>
+                5/5 Stars
+              </p>
+              <p class="ca-text">
+                <i class="ri-double-quotes-l"></i>
+                Family received great service from Fern Foot Care. Dad looks
+                forward to his monthly visits and we always recommend Kay to
+                others.
+                <i class="ri-double-quotes-r"></i>
+              </p>
+              <h4>Bill & Tom Wyatt, Forfar</h4>
+              <h5>January 2025</h5>
+            </div>
+          </div>
+
+          <div class="ca-card">
+            <div class="img_container">
+              <img src="Reviews/woman_mid.jpeg" alt="Woman" class="ca-img" />
+              <p class="review-stars">
+                <i class="ri-star-fill"
+                  ><i class="ri-star-fill"
+                    ><i class="ri-star-fill"
+                      ><i class="ri-star-fill"
+                        ><i class="ri-star-fill"></i></i></i></i
+                ></i>
+                5/5 Stars
+              </p>
+              <p class="ca-text">
+                <i class="ri-double-quotes-l"></i>
+                Kay is very professional and friendly with a great amount of
+                knowledge on many different types of foot problems.
+                <i class="ri-double-quotes-r"></i>
+              </p>
+              <h4>Rebecca Chase, Kirriemuir</h4>
+              <h5>February 2025</h5>
+            </div>
+          </div>
+
+          <div class="ca-card">
+            <div class="img_container">
+              <img src="Reviews/man_older.jpeg" alt="man" class="ca-img" />
+              <p class="review-stars">
+                <i class="ri-star-fill"
+                  ><i class="ri-star-fill"
+                    ><i class="ri-star-fill"
+                      ><i class="ri-star-fill"
+                        ><i class="ri-star-fill"></i></i></i></i
+                ></i>
+                5/5 Stars
+              </p>
+              <p class="ca-text">
+                <i class="ri-double-quotes-l"></i>
+                Kay has sorted out my ingrown toenail and I'm very happy with
+                the results.
+                <i class="ri-double-quotes-r"></i>
+              </p>
+              <h4>Dougal Scott, Kirriemuir</h4>
+              <h5>January 2025</h5>
+            </div>
+          </div>
+
+          <div class="ca-card">
+            <div class="img_container">
+              <img src="Reviews/family2.jpeg" alt="family" class="ca-img" />
+              <p class="review-stars">
+                <i class="ri-star-fill"
+                  ><i class="ri-star-fill"
+                    ><i class="ri-star-fill"
+                      ><i class="ri-star-fill"
+                        ><i class="ri-star-fill"></i></i></i></i
+                ></i>
+                5/5 Stars
+              </p>
+              <p class="ca-text">
+                <i class="ri-double-quotes-l"></i>
+                Getting foot care couldn't be any easier! Kay visits us at home
+                and treats all of the family. She is warm and professional and
+                knows what she's doing.
+                <i class="ri-double-quotes-r"></i>
+              </p>
+              <h4>The Andersons, Noranside</h4>
+              <h5>October 2024</h5>
+            </div>
+          </div>
+
+          <div class="ca-card">
+            <div class="img_container">
+              <img src="Reviews/friends2.jpeg" alt="friends" class="ca-img" />
+              <p class="review-stars">
+                <i class="ri-star-fill"
+                  ><i class="ri-star-fill"
+                    ><i class="ri-star-fill"
+                      ><i class="ri-star-fill"
+                        ><i class="ri-star-fill"></i></i></i></i
+                ></i>
+                5/5 Stars
+              </p>
+              <p class="ca-text">
+                <i class="ri-double-quotes-l"></i>
+                We look forward to our monthly medi-pedi treatment. It's so
+                great to be able to do this at home with your friends. We'd
+                recommend booking a group appointment!
+                <i class="ri-double-quotes-r"></i>
+              </p>
+              <h4>Scarlett, Emily & Eryn, Brechin</h4>
+              <h5>December 2024</h5>
+            </div>
+          </div>
+
+          <div class="ca-card">
+            <div class="img_container">
+              <img src="Reviews/man_older3.jpeg" alt="man" class="ca-img" />
+              <p class="review-stars">
+                <i class="ri-star-fill"
+                  ><i class="ri-star-fill"
+                    ><i class="ri-star-fill"><i class="ri-star-fill"></i></i></i
+                ></i>
+                4/5 Stars
+              </p>
+              <p class="ca-text">
+                <i class="ri-double-quotes-l"></i>
+                Working on fixing an ingrown toenail, getting there slowly. Kay
+                is very professional. 4 stars because it's a long process, but
+                I'm happy with the results so far.
+                <i class="ri-double-quotes-r"></i>
+              </p>
+              <h4>Dan Josh Wheeler, Brechin</h4>
+              <h5>January 2025</h5>
+            </div>
+          </div>
+
+          <div class="ca-card">
+            <div class="img_container">
+              <img
+                src="Reviews/older_couple.jpeg"
+                alt="couple"
+                class="ca-img"
+              />
+              <p class="review-stars">
+                <i class="ri-star-fill"
+                  ><i class="ri-star-fill"
+                    ><i class="ri-star-fill"
+                      ><i class="ri-star-fill"
+                        ><i class="ri-star-fill"></i></i></i></i
+                ></i>
+                5/5 Stars
+              </p>
+              <p class="ca-text">
+                <i class="ri-double-quotes-l"></i>
+                Fern Foot Care provide a really great mobile service. It helps
+                us because we don't drive these days and it's so convenient.
+                Thanks Fern Foot Care for looking after our old feet!
+                <i class="ri-double-quotes-r"></i>
+              </p>
+              <h4>Finlay & Charlotte Hughes, Kirriemuir</h4>
+              <h5>December 2024</h5>
+            </div>
+          </div>
+
+          <div class="ca-card">
+            <div class="img_container">
+              <img src="Reviews/man_older2.jpeg" alt="man" class="ca-img" />
+              <p class="review-stars">
+                <i class="ri-star-fill"
+                  ><i class="ri-star-fill"
+                    ><i class="ri-star-fill"
+                      ><i class="ri-star-fill"
+                        ><i class="ri-star-fill"></i></i></i></i
+                ></i>
+                5/5 Stars
+              </p>
+              <p class="ca-text">
+                <i class="ri-double-quotes-l"></i>
+                The wife was giving me grief about the smell of my feet. Never
+                realised I had fungal toenails! Now my feet (according to the
+                wife) are looking and smelling a lot better. Thanks Kay!
+                <i class="ri-double-quotes-r"></i>
+              </p>
+              <h4>Jim Hedgeson, Fern</h4>
+              <h5>January 2025</h5>
+            </div>
+          </div>
+
+          <div class="ca-card">
+            <div class="img_container">
+              <img src="Reviews/friends.jpeg" alt="friends" class="ca-img" />
+              <p class="review-stars">
+                <i class="ri-star-fill"
+                  ><i class="ri-star-fill"
+                    ><i class="ri-star-fill"
+                      ><i class="ri-star-fill"
+                        ><i class="ri-star-fill"></i></i></i></i
+                ></i>
+                5/5 Stars
+              </p>
+              <p class="ca-text">
+                <i class="ri-double-quotes-l"></i>
+                Mamma told us about Fern Foot Care, we were struggling to fit
+                foot care appointments in our schedules. The treatments are at
+                home (or with mamma's) making life so easy when you're busy
+                working mums!
+                <i class="ri-double-quotes-r"></i>
+              </p>
+              <h4>Loretta and Franchesca Mancini, Dundee</h4>
+              <h5>January 2025</h5>
+            </div>
+          </div>
+          <div class="review_button">
+            <button id="previous" onclick="previousReview()">
+              <i class="ri-arrow-left-circle-fill"></i>
+            </button>
+            <button id="next" onclick="nextReview()">
+              <i class="ri-arrow-right-circle-fill"></i>
+            </button>
+          </div>
+        </div>
+      </section>
+      <!--==== END OF CAROUSEL REVIEWS ===-->
+
+      <!--===PATIENT REVIEW INPUT FORM-->
+      <section class="section-reviews" id="section_rvs">
+        <h2>Your Experience Matters!</h2>
+        <h3>
+          <i class="ri-sparkling-line"></i>Share Your Fern Foot Care Review
+          <i class="ri-sparkling-line"></i>
+        </h3>
+
+        <div class="patient-input-form" id="reviewForm">
+          <div class="review-input-container">
+            <h2>Leave Us Your Review</h2>
+            <div class="image-box" id="imageBox">
+              <i class="ri-star-smile-fill"></i>
+            </div>
+            <p>Choose your rating</p>
+            <div class="stars">
+              <input type="radio" name="rating" id="star1" /><label for="star1"
+                >★</label
+              >
+              <input type="radio" name="rating" id="star2" /><label for="star2"
+                >★</label
+              >
+              <input type="radio" name="rating" id="star3" /><label for="star3"
+                >★</label
+              >
+              <input type="radio" name="rating" id="star4" /><label for="star4"
+                >★</label
+              >
+              <input type="radio" name="rating" id="star5" /><label for="star5"
+                >★</label
+              >
+            </div>
+
+            <input type="text" id="name" placeholder="Your Name(s)" />
+            <input
+              type="file"
+              id="profile-pic"
+              accept="image/*"
+              onchange="previewImage(event)"
+            />
+            <input
+              type="text"
+              id="location"
+              placeholder="Where are you from?"
+            />
+            <textarea
+              id="comment"
+              rows="4"
+              placeholder="Tell others about your experience with Fern Foot Care here..."
+            ></textarea>
+            <button class="submit-review" onclick="submitFeedback()">
+              <i class="ri-sparkling-line"></i>Submit My Review
+            </button>
+            <p id="feedback_message">
+              <i class="ri-thumb-up-fill"></i>Thank you for your review!
+            </p>
+            <p id="error_message">
+              <i class="ri-emotion-sad-fill"></i>Oh No! Something is missing,
+              please double check your info.
+            </p>
+          </div>
+        </div>
+      </section>
+      <!--_____End PATIENT REVIEW INPUT FORM____-->
+    </main>
+    <!--================ FOOTER =================-->
+    <footer>
+      <!--Footer Links-->
+      <div class="footer-div">
+        <div class="footer-links">
+          <ul>
+            <li>
+              <a href="HOME.html">
+                <img
+                  src="logo_affiliations/LogoFernFootCareSVG.svg"
+                  alt="Fern Foot Care logo"
+              /></a>
+            </li>
+          </ul>
+
+          <ul>
+            <li><h3>QUICK LINKS</h3></li>
+            <li><a href="TREATMENTS.html">Treatments</a></li>
+            <li><a href="APPOINTMENTS.html">Appointments</a></li>
+            <li><a href="PRICES.html">Prices</a></li>
+            <li><a href="CONTACT_US.html">Contact</a></li>
+            <li><a href="REVIEWS.html">Reviews</a></li>
+            <li><a href="NEWS.html">News</a></li>
+          </ul>
+          <ul>
+            <li><h3>POLICIES</h3></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms & Conditions</a></li>
+            <li><a href="#">Disclaimer</a></li>
+          </ul>
+          <ul>
+            <li><h3>ABOUT US</h3></li>
+            <li><a href="#">Business Bio</a></li>
+            <li><a href="#">Our Vision</a></li>
+            <li><a href="#">Professional Standards</a></li>
+            <li><a href="#">Our Healthcare Associates</a></li>
+          </ul>
+        </div>
+      </div>
+      <!--footer affiliations-->
+      <div>
+        <ul class="affiliations">
+          <li>
+            <a href="https://www.collegefhp.com/"
+              ><img
+                src="logo_affiliations/PNGCollegeoffoothealthpractitioners.png"
+                alt="College of foot health practitioners badge"
+                class="badge"
+            /></a>
+          </li>
+          <li>
+            <a href="https://www.thealliancepsp.com/"
+              ><img
+                src="logo_affiliations/PNGallianceofprivatesectorpractitioners.png"
+                alt="Alliance of private sector practitioners badge"
+                class="badge"
+            /></a>
+          </li>
+          <li>
+            <a href="https://www.nmc.org.uk/"
+              ><img
+                src="logo_affiliations/PNGNursingandmidwiferycouncil.png"
+                alt="Nursing and midwifery council badge"
+                class="badge"
+            /></a>
+          </li>
+          <li>
+            <a href="https://www.hcpc-uk.org/"
+              ><img
+                src="logo_affiliations/PNGhealthandcareprofessionscouncil.png"
+                alt="Health and care professions council badge"
+                class="badge"
+            /></a>
+          </li>
+          <li>
+            <a href="https://www.balens.co.uk/"
+              ><img
+                src="logo_affiliations/Balensinsurance.png"
+                class="badge"
+                alt="Balens insurance badge"
+            /></a>
+          </li>
+        </ul>
+      </div>
+
+      <!--Copyright-->
+      <div>
+        <ul class="copyright">
+          <li><b>Fern Foot Care Ltd &copy;</b></li>
+          <li>All Rights Reserved</li>
+          <li>
+            <a href="https://www.schemadesign.co.uk"
+              >Website by ScheMa Design &copy;</a
+            >
+          </li>
+        </ul>
+      </div>
+    </footer>
+    <!--=============== JavaScript ===============-->
+    <script src="main.js"></script>
+  </body>
+</html>

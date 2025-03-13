@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== REMIXICONS ===============-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <!--=============== FONT AWESOME ICONS ===============-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="styles.css" />
+    <!--=============== GOOGLE FONTS ===============-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!--=============== FAVICON ===============-->
+    <link
+      rel="icon"
+      href="logo_affiliations/LogoFernFootCareSVG.svg"
+      type="image/svg+xml"
+    />
+
+    <title>Appointments</title>
+  </head>
+  <body>
+    <!--=============== HEADER ===============-->
+    <header class="header">
+      <nav class="nav container">
+        <div class="nav__data">
+          <a href="HOME.html" class="nav__logo">
+            <img
+              src="logo_affiliations/LogoFernFootCareSVG.svg"
+              alt="Fern Foot Care logo"
+              class="nav__logo"
+            />FERN FOOT CARE
+          </a>
+
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="ri-menu-line nav__burger"></i>
+            <i class="ri-close-line nav__close"></i>
+          </div>
+        </div>
+
+        <!--=============== NAV MENU ===============-->
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li><a href="HOME.html" class="nav__link">HOME</a></li>
+
+            <!--=============== DROPDOWN 1 ===============-->
+            <li class="dropdown__item">
+              <div class="nav__link">
+                APPOINTMENTS<i class="ri-arrow-down-s-line dropdown__arrow"></i>
+              </div>
+
+              <ul class="dropdown__menu">
+                <li>
+                  <a href="APPOINTMENTS.html#app_types" class="dropdown__link">
+                    Appointment Types
+                  </a>
+                </li>
+                <li>
+                  <a href="APPOINTMENTS.html#loc_map" class="dropdown__link">
+                    Areas Covered
+                  </a>
+                </li>
+                <li>
+                  <a href="APPOINTMENTS.html#opening" class="dropdown__link">
+                    Opening Hours
+                  </a>
+                </li>
+              </ul>
+
+              <!--=============== DROPDOWN 2 ===============-->
+            </li>
+
+            <li class="dropdown__item">
+              <div class="nav__link">
+                TREATMENTS<i class="ri-arrow-down-s-line dropdown__arrow"></i>
+              </div>
+
+              <ul class="dropdown__menu" id="subNav-menu">
+                <li>
+                  <a href="TREATMENTS.html" class="dropdown__link">
+                    All Treatments
+                  </a>
+                </li>
+                <li>
+                  <a href="TREATMENTS.html#new-patient" class="dropdown__link">
+                    New Patient
+                  </a>
+                </li>
+                <li>
+                  <a href="TREATMENTS.html#nail-cutting" class="dropdown__link">
+                    Nail Cutting
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    href="TREATMENTS.html#ingrown-toenails"
+                    class="dropdown__link"
+                  >
+                    Ingrown Toenails
+                  </a>
+                </li>
+                <li>
+                  <a href="TREATMENTS.html#nail-surgery" class="dropdown__link">
+                    Nail Surgery
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="TREATMENTS.html#callus-corn-removal"
+                    class="dropdown__link"
+                  >
+                    Callus & Corn Removal
+                  </a>
+                </li>
+                <li>
+                  <a href="TREATMENTS.html#verrucae" class="dropdown__link">
+                    Verrucae
+                  </a>
+                </li>
+                <li>
+                  <a href="TREATMENTS.html#fungal-nail" class="dropdown__link">
+                    Fungal Nail Treatment
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="TREATMENTS.html#diabetic-foot"
+                    class="dropdown__link"
+                  >
+                    Diabetic Foot Assessment
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="TREATMENTS.html#foot-wound-care"
+                    class="dropdown__link"
+                  >
+                    Foot Wound Care
+                  </a>
+                </li>
+              </ul>
+            </li>
+
+            <li><a href="PRICES.html" class="nav__link">PRICES</a></li>
+
+            <!--=============== DROPDOWN 3 ===============-->
+            <li class="dropdown__item">
+              <div class="nav__link">
+                CONTACT <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+              </div>
+
+              <ul class="dropdown__menu">
+                <li>
+                  <a href="CONTACT_US.html#contact_form" class="dropdown__link">
+                    <i class="ri-user-line"></i> Enquiry Form
+                  </a>
+                </li>
+
+                <li>
+                  <a href="tel:01234567890" class="dropdown__link">
+                    <i class="ri-phone-line"></i> Call Us
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    href="mailto:fernfootcare@hotmail.com"
+                    class="dropdown__link"
+                  >
+                    <i class="ri-mail-line"></i> Email Us
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    href="https://www.facebook.com/fernfootcaremobilepractitioner/"
+                    class="dropdown__link"
+                  >
+                    <i class="ri-facebook-box-fill"></i> Facebook
+                  </a>
+                </li>
+
+                <li>
+                  <a href="https://www.instagram.com/" class="dropdown__link">
+                    <i class="ri-instagram-fill"></i> Instagram
+                  </a>
+                </li>
+
+                <li>
+                  <a href="https://www.linkedin.com/" class="dropdown__link">
+                    <i class="ri-linkedin-box-fill"></i> LinkedIn
+                  </a>
+                </li>
+              </ul>
+            </li>
+
+            <!--=============== DROPDOWN 4 ===============-->
+            <li class="dropdown__item">
+              <div class="nav__link">
+                REVIEWS <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+              </div>
+
+              <ul class="dropdown__menu">
+                <li>
+                  <a href="REVIEWS.html" class="dropdown__link">
+                    <i class="ri-user-line"></i> Read Reviews
+                  </a>
+                </li>
+
+                <li>
+                  <a href="REVIEWS.html#section_rvs" class="dropdown__link">
+                    <i class="ri-star-line"></i>Review Us
+                  </a>
+                </li>
+              </ul>
+            </li>
+
+            <li><a href="NEWS.html" class="nav__link">NEWS</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <!--______HEADER END____-->
+
+    <main>
+      <!--=============== HERO SECTION ===============-->
+      <section
+        class="background-image-container background-image-container-appointments"
+      >
+        <div class="flex-container">
+          <div class="hero-text-bg">
+            <h1 class="hero-h1">Appointments</h1>
+            <h3 class="hero-h3">
+              Not sure what type of appointment is right for you?
+            </h3>
+            <h4 class="hero-h4">
+              Explore our appointment options and let us take the guesswork out
+              of it!
+            </h4>
+          </div>
+          <a href="CONTACT_US.html" class="hero-button button"
+            >Book an appointment!</a
+          >
+        </div>
+      </section>
+      <!--________HERO SECTION END_______-->
+
+      <!--======= 'APPPOINTMENT TYPES' SECTION ======= -->
+      <section class="services" id="app_types">
+        <h2>Appointment Types</h2>
+        <div class="cards">
+          <div class="card">
+            <h3>What is a routine appointment?</h3>
+            <h4>Covers all aspects of basic foot health including:</h4>
+            <ul class="services-list">
+              <li>Nail Cutting</li>
+              <li>Ingrown Toenails</li>
+              <li>Nail Surgery</li>
+              <li>Callus & Corn Removal</li>
+              <li>Foot Wound Care</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3>What is a new patient appointment?</h3>
+            <h4>First consultation, includes:</h4>
+            <ul class="services-list">
+              <li>Medical history</li>
+              <li>Foot assessment</li>
+              <li>As required treatment</li>
+              <li>Callus & Corn Removal</li>
+              <li>
+                Returning patients and 18 months or more since last treatment
+              </li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3>What is a shared or group appointment?</h3>
+            <h4>
+              More than one person for treatment at the appointment, includes:
+            </h4>
+            <ul class="services-list">
+              <li>Family & friends at same location</li>
+              <li>
+                Care settings:
+                <ul class="services-list sub">
+                  <li>Sheltered accommodation</li>
+                  <li>Residential care homes</li>
+                  <li>Nursing homes</li>
+                  <li>Workplaces</li>
+                </ul>
+              </li>
+              <li>Discount applied, please enquire</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3>What is an emergency appointment?</h3>
+            <h4>Appointments for high risk individuals, for example:</h4>
+            <ul class="services-list">
+              <li>Diabetic patients</li>
+              <li>Infected wounds</li>
+              <li>Infected ingrown toenails</li>
+              <li>Impaired circulation</li>
+            </ul>
+          </div>
+        </div>
+        <div>
+          <a href="CONTACT_US.html" class="btn-appointment button"
+            >BOOK AN APPOINTMENT</a
+          >
+        </div>
+      </section>
+      <!--================ 'APPOINTMENT TYPES' SECTION END ================ -->
+
+      <!--================ 'OPENING HOURS' SECTION ================ -->
+      <section class="opening-hours" id="opening">
+        <h2>Opening Hours</h2>
+        <div class="opening-hours-container">
+          <div class="opening-hours-card">
+            <h3>Monday</h3>
+            <p>8am - 6pm</p>
+          </div>
+          <div class="opening-hours-card">
+            <h3>Tuesday</h3>
+            <p>9am - 6pm</p>
+          </div>
+          <div class="opening-hours-card">
+            <h3>Wednesday</h3>
+            <p>Closed</p>
+          </div>
+          <div class="opening-hours-card">
+            <h3>Thursday</h3>
+            <p>8am - 6pm</p>
+          </div>
+          <div class="opening-hours-card">
+            <h3>Friday</h3>
+            <p>8am - 4pm</p>
+          </div>
+          <div class="opening-hours-card">
+            <h3>Weekends</h3>
+            <p>Closed</p>
+          </div>
+        </div>
+      </section>
+      <!--================ 'OPENING HOURS' SECTION END ================ -->
+
+      <!--========= CALL SECTION =========-->
+      <section class="call-section">
+        <h2>Get In Touch</h2>
+        <h3 class="hero-h3">
+          <span>Call, email or complete an enquiry now</span> to find out more
+          about our services and treatments.
+        </h3>
+        <div class="call-container">
+          <div class="call-item">
+            <a href="tel:01234567890" class="call-hero-button button">
+              <i class="ri-phone-fill"></i>
+            </a>
+            <p>call</p>
+          </div>
+          <div class="call-item">
+            <a href="mailto:4tHtM@example.com" class="call-hero-button button">
+              <i class="ri-mail-fill"></i
+            ></a>
+            <p>email</p>
+          </div>
+          <div class="call-item">
+            <a href="CONTACT_US.html" class="call-hero-button button">
+              <i class="ri-survey-fill"></i
+            ></a>
+            <p>enquire</p>
+          </div>
+        </div>
+      </section>
+
+      <!--========= MAP SECTION =========-->
+      <section class="map-section" id="loc_map">
+        <h2>Areas We Cover</h2>
+        <div class="section-container">
+          <div class="list-container">
+            <span class="location"
+              ><i class="ri-map-pin-5-fill location-pin"></i>Noranside</span
+            >
+            <span class="location"
+              ><i class="ri-map-pin-5-fill location-pin"></i>Glamis</span
+            >
+            <span class="location"
+              ><i class="ri-map-pin-5-fill location-pin"></i>Fern</span
+            >
+            <span class="location"
+              ><i class="ri-map-pin-5-fill location-pin"></i>Kirriemuir</span
+            >
+            <span class="location"
+              ><i class="ri-map-pin-5-fill location-pin"></i>Forfar</span
+            >
+            <span class="location"
+              ><i class="ri-map-pin-5-fill location-pin"></i>Brechin</span
+            >
+            <span class="location"
+              ><i class="ri-map-pin-5-fill location-pin"></i>Dundee</span
+            >
+            <span class="location"
+              ><i class="ri-map-pin-5-fill location-pin"></i>Broughty
+              Ferry</span
+            >
+          </div>
+          <div class="map-container">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d280638.43245786376!2d-3.1864646975339905!3d56.6658628470063!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48867ce5c8e66a73%3A0xa0c681c77df1d20!2sNoranside%2C%20Forfar%20DD8%203QZ!5e0!3m2!1sen!2suk!4v1737738947574!5m2!1sen!2suk"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              id="Iframe"
+            ></iframe>
+          </div>
+          <span class="location"
+            ><i class="ri-questionnaire-fill location-pin"></i>Can't see your
+            location? Don't worry!
+            <a href="CONTACT_US.html#contact_link"> Get in touch</a> to check
+            whether we cover your area.</span
+          >
+        </div>
+      </section>
+      <!--_________End Map Section_______-->
+    </main>
+
+    <!--================ FOOTER =================-->
+    <footer>
+      <!--Footer Links-->
+      <div class="footer-div">
+        <div class="footer-links">
+          <ul>
+            <li>
+              <a href="HOME.html">
+                <img
+                  src="logo_affiliations/LogoFernFootCareSVG.svg"
+                  alt="Fern Foot Care logo"
+              /></a>
+            </li>
+          </ul>
+
+          <ul>
+            <li><h3>QUICK LINKS</h3></li>
+            <li><a href="TREATMENTS.html">Treatments</a></li>
+            <li><a href="APPOINTMENTS.html">Appointments</a></li>
+            <li><a href="PRICES.html">Prices</a></li>
+            <li><a href="CONTACT_US.html">Contact</a></li>
+            <li><a href="REVIEWS.html">Reviews</a></li>
+            <li><a href="NEWS.html">News</a></li>
+          </ul>
+          <ul>
+            <li><h3>POLICIES</h3></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms & Conditions</a></li>
+            <li><a href="#">Disclaimer</a></li>
+          </ul>
+          <ul>
+            <li><h3>ABOUT US</h3></li>
+            <li><a href="#">Business Bio</a></li>
+            <li><a href="#">Our Vision</a></li>
+            <li><a href="#">Professional Standards</a></li>
+            <li><a href="#">Our Healthcare Associates</a></li>
+          </ul>
+        </div>
+      </div>
+      <!--footer affiliations-->
+      <div>
+        <ul class="affiliations">
+          <li>
+            <a href="https://www.collegefhp.com/"
+              ><img
+                src="logo_affiliations/PNGCollegeoffoothealthpractitioners.png"
+                alt="College of foot health practitioners badge"
+                class="badge"
+            /></a>
+          </li>
+          <li>
+            <a href="https://www.thealliancepsp.com/"
+              ><img
+                src="logo_affiliations/PNGallianceofprivatesectorpractitioners.png"
+                alt="Alliance of private sector practitioners badge"
+                class="badge"
+            /></a>
+          </li>
+          <li>
+            <a href="https://www.nmc.org.uk/"
+              ><img
+                src="logo_affiliations/PNGNursingandmidwiferycouncil.png"
+                alt="Nursing and midwifery council badge"
+                class="badge"
+            /></a>
+          </li>
+          <li>
+            <a href="https://www.hcpc-uk.org/"
+              ><img
+                src="logo_affiliations/PNGhealthandcareprofessionscouncil.png"
+                alt="Health and care professions council badge"
+                class="badge"
+            /></a>
+          </li>
+          <li>
+            <a href="https://www.balens.co.uk/"
+              ><img
+                src="logo_affiliations/Balensinsurance.png"
+                class="badge"
+                alt="Balens insurance badge"
+            /></a>
+          </li>
+        </ul>
+      </div>
+
+      <!--Copyright-->
+      <div>
+        <ul class="copyright">
+          <li><b>Fern Foot Care Ltd &copy;</b></li>
+          <li>All Rights Reserved</li>
+          <li>
+            <a href="https://www.schemadesign.co.uk"
+              >Website by ScheMa Design &copy;</a
+            >
+          </li>
+        </ul>
+      </div>
+    </footer>
+    <!--=============== JavaScript ===============-->
+    <script src="main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,787 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== REMIXICONS ===============-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <!--=============== FONT AWESOME ICONS ===============-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="styles.css" />
+    <!--=============== GOOGLE FONTS ===============-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!--=============== FAVICON ===============-->
+    <link
+      rel="icon"
+      href="logo_affiliations/favicon-32x32.png"
+      type="image/svg+xml"
+    />
+
+    <title>News</title>
+  </head>
+  <body>
+    <!--=============== HEADER ===============-->
+    <header class="header">
+      <nav class="nav container">
+        <div class="nav__data">
+          <a href="HOME.html" class="nav__logo">
+            <img
+              src="logo_affiliations/LogoFernFootCareSVG.svg"
+              alt="Fern Foot Care logo"
+              class="nav__logo"
+            />FERN FOOT CARE
+          </a>
+
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="ri-menu-line nav__burger"></i>
+            <i class="ri-close-line nav__close"></i>
+          </div>
+        </div>
+
+        <!--=============== NAV MENU ===============-->
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li><a href="HOME.html" class="nav__link">HOME</a></li>
+
+            <!--=============== DROPDOWN 1 ===============-->
+            <li class="dropdown__item">
+              <div class="nav__link">
+                APPOINTMENTS<i class="ri-arrow-down-s-line dropdown__arrow"></i>
+              </div>
+
+              <ul class="dropdown__menu">
+                <li>
+                  <a href="APPOINTMENTS.html#app_types" class="dropdown__link">
+                    Appointment Types
+                  </a>
+                </li>
+                <li>
+                  <a href="APPOINTMENTS.html#loc_map" class="dropdown__link">
+                    Areas Covered
+                  </a>
+                </li>
+                <li>
+                  <a href="APPOINTMENTS.html#opening" class="dropdown__link">
+                    Opening Hours
+                  </a>
+                </li>
+              </ul>
+
+              <!--=============== DROPDOWN 2 ===============-->
+            </li>
+
+            <li class="dropdown__item">
+              <div class="nav__link">
+                TREATMENTS<i class="ri-arrow-down-s-line dropdown__arrow"></i>
+              </div>
+
+              <ul class="dropdown__menu" id="subNav-menu">
+                <li>
+                  <a href="TREATMENTS.html" class="dropdown__link">
+                    All Treatments
+                  </a>
+                </li>
+                <li>
+                  <a href="TREATMENTS.html#new-patient" class="dropdown__link">
+                    New Patient
+                  </a>
+                </li>
+                <li>
+                  <a href="TREATMENTS.html#nail-cutting" class="dropdown__link">
+                    Nail Cutting
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    href="TREATMENTS.html#ingrown-toenails"
+                    class="dropdown__link"
+                  >
+                    Ingrown Toenails
+                  </a>
+                </li>
+                <li>
+                  <a href="TREATMENTS.html#nail-surgery" class="dropdown__link">
+                    Nail Surgery
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="TREATMENTS.html#callus-corn-removal"
+                    class="dropdown__link"
+                  >
+                    Callus & Corn Removal
+                  </a>
+                </li>
+                <li>
+                  <a href="TREATMENTS.html#verrucae" class="dropdown__link">
+                    Verrucae
+                  </a>
+                </li>
+                <li>
+                  <a href="TREATMENTS.html#fungal-nail" class="dropdown__link">
+                    Fungal Nail Treatment
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="TREATMENTS.html#diabetic-foot"
+                    class="dropdown__link"
+                  >
+                    Diabetic Foot Assessment
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="TREATMENTS.html#foot-wound-care"
+                    class="dropdown__link"
+                  >
+                    Foot Wound Care
+                  </a>
+                </li>
+              </ul>
+            </li>
+
+            <li><a href="PRICES.html" class="nav__link">PRICES</a></li>
+
+            <!--=============== DROPDOWN 3 ===============-->
+            <li class="dropdown__item">
+              <div class="nav__link">
+                CONTACT <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+              </div>
+
+              <ul class="dropdown__menu">
+                <li>
+                  <a href="CONTACT_US.html#contact_form" class="dropdown__link">
+                    <i class="ri-user-line"></i> Enquiry Form
+                  </a>
+                </li>
+
+                <li>
+                  <a href="tel:01234567890" class="dropdown__link">
+                    <i class="ri-phone-line"></i> Call Us
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    href="mailto:fernfootcare@hotmail.com"
+                    class="dropdown__link"
+                  >
+                    <i class="ri-mail-line"></i> Email Us
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    href="https://www.facebook.com/fernfootcaremobilepractitioner/"
+                    class="dropdown__link"
+                  >
+                    <i class="ri-facebook-box-fill"></i> Facebook
+                  </a>
+                </li>
+
+                <li>
+                  <a href="https://www.instagram.com/" class="dropdown__link">
+                    <i class="ri-instagram-fill"></i> Instagram
+                  </a>
+                </li>
+
+                <li>
+                  <a href="https://www.linkedin.com/" class="dropdown__link">
+                    <i class="ri-linkedin-box-fill"></i> LinkedIn
+                  </a>
+                </li>
+              </ul>
+            </li>
+
+            <!--=============== DROPDOWN 4 ===============-->
+            <li class="dropdown__item">
+              <div class="nav__link">
+                REVIEWS <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+              </div>
+
+              <ul class="dropdown__menu">
+                <li>
+                  <a href="REVIEWS.html" class="dropdown__link">
+                    <i class="ri-user-line"></i> Read Reviews
+                  </a>
+                </li>
+
+                <li>
+                  <a href="REVIEWS.html#section_rvs" class="dropdown__link">
+                    <i class="ri-star-line"></i>Review Us
+                  </a>
+                </li>
+              </ul>
+            </li>
+
+            <li><a href="NEWS.html" class="nav__link">NEWS</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <!--______HEADER END____-->
+
+    <main>
+      <!--=============== HERO SECTION ===============-->
+      <section
+        class="background-image-container-news background-image-container"
+      >
+        <div class="flex-container">
+          <div class="hero-text-bg">
+            <h1 class="hero-h1">
+              News <span class="hero-span">&</span> Campaigns
+            </h1>
+            <h3 class="hero-h3">
+              Featured articles written and reviewed by us!
+            </h3>
+            <h4 class="hero-h4">
+              Let Kay and the team at Fern Foot Care keep you a step ahead with
+              the latest in foot health...
+            </h4>
+          </div>
+          <a href="NEWS.html#march2025" class="hero-button button"
+            >Latest Article</a
+          >
+        </div>
+      </section>
+      <!--________HERO SECTION END_______-->
+
+      <!--==== RESPONSIVE BLOG SECTION ===-->
+      <section class="responsive-news-wrapper">
+        <h2 id="march2025">Read The Latest Fern Foot Care News</h2>
+        <div class="article-list-wrapper">
+          <ul class="article-list">
+            <li class="news-item">
+              <div class="article-container">
+                <img
+                  src="hero/blogfootweek.png"
+                  alt="national foot week image"
+                />
+                <h3 class="article-title">
+                  Foot Health Week National Awareness Campaign<i
+                    class="ri-pencil-line"
+                  ></i>
+                </h3>
+                <div class="blog_nav_div">
+                  <div class="blog_nav_btn">
+                    <button
+                      onclick="handleClick('previous')"
+                      class="button button--previous"
+                      type="button"
+                    >
+                      PREV
+                    </button>
+                  </div>
+                  <div class="blog_nav_text">
+                    <h4 class="author">
+                      <i class="ri-nurse-line"></i>by Kay Ferguson
+                    </h4>
+                    <h4 class="date">
+                      <i class="ri-calendar-2-line"></i>March 2025
+                    </h4>
+                  </div>
+                  <div class="blog_nav_btn">
+                    <button
+                      onclick="handleClick('next')"
+                      class="button button--next"
+                      type="button"
+                    >
+                      NEXT
+                    </button>
+                  </div>
+                </div>
+                <p class="blog-text">
+                  <span class="date">WHAT IS NATIONAL FOOT HEALTH WEEK?</span>
+                  organised by the Royal College of Podiatry (RCPod), this
+                  annual public awareness campaign highlights real-life patient
+                  stories, showcasing the life-changing impact that foot health
+                  professionals have had on their patients' health and
+                  wellbeing.
+                </p>
+                <div class="share_readmore">
+                  <a href="#" class="btn_readmore button">Read More</a>
+                  <a href="#" class="btn_share button">
+                    <i class="ri-share-fill"></i>
+                  </a>
+                </div>
+              </div>
+            </li>
+
+            <li class="news-item">
+              <div class="article-container">
+                <img
+                  src="hero/kayblog5.png"
+                  alt="Practitioner carrying out nail clipping on patient"
+                />
+                <h3 class="article-title">
+                  Ten signs it's time to see a Foot Health Practitioner...<i
+                    class="ri-pencil-line"
+                  ></i>
+                </h3>
+                <div class="blog_nav_div">
+                  <div class="blog_nav_btn">
+                    <button
+                      onclick="handleClick('previous')"
+                      class="button button--previous"
+                      type="button"
+                    >
+                      PREV
+                    </button>
+                  </div>
+                  <div class="blog_nav_text">
+                    <h4 class="author">
+                      <i class="ri-nurse-line"></i>by Kay Ferguson
+                    </h4>
+                    <h4 class="date">
+                      <i class="ri-calendar-2-line"></i>February 2025
+                    </h4>
+                  </div>
+                  <div class="blog_nav_btn">
+                    <button
+                      onclick="handleClick('next')"
+                      class="button button--next"
+                      type="button"
+                    >
+                      NEXT
+                    </button>
+                  </div>
+                </div>
+                <p class="blog-text">
+                  <span class="date">OUCH, MY FEET HURT!</span> Ten signs it's
+                  time to see a foot health practitioner include: persistent
+                  heel pain, noticeable swelling in the foot, numbness or
+                  tingling in the feet, ingrown toenails, bunions, nail fungus,
+                  difficulty walking due to foot pain, open wounds on the feet
+                  that aren't healing, significant changes in foot shape, or if
+                  you have diabetes and experience foot concerns...
+                </p>
+                <div class="share_readmore">
+                  <button class="btn_readmore">Read More</button>
+                  <button class="btn_share">
+                    <i class="ri-share-fill"></i>
+                  </button>
+                </div>
+              </div>
+            </li>
+
+            <li class="news-item">
+              <div class="article-container">
+                <img
+                  src="hero/kayblog4.png"
+                  alt="Practitioner receiving certificate from foot college"
+                />
+                <h3 class="article-title">
+                  Keeping clinical competencies up-to-date...<i
+                    class="ri-pencil-line"
+                  ></i>
+                </h3>
+                <div class="blog_nav_div">
+                  <div class="blog_nav_btn">
+                    <button
+                      onclick="handleClick('previous')"
+                      class="button button--previous"
+                      type="button"
+                    >
+                      PREV
+                    </button>
+                  </div>
+                  <div class="blog_nav_text">
+                    <h4 class="author">
+                      <i class="ri-nurse-line"></i>by Kay Ferguson
+                    </h4>
+                    <h4 class="date">
+                      <i class="ri-calendar-2-line"></i>January 2025
+                    </h4>
+                  </div>
+                  <div class="blog_nav_btn">
+                    <button
+                      onclick="handleClick('next')"
+                      class="button button--next"
+                      type="button"
+                    >
+                      NEXT
+                    </button>
+                  </div>
+                </div>
+                <p class="blog-text">
+                  <span class="date"
+                    >THE CONSTANTLY EVOLVING FIELD OF FOOT CARE</span
+                  >
+                  means that foot health practitioners must keep their skills
+                  up-to-date. New treatments, technologies, and research are
+                  emerging, and to ensure they can provide the best possible
+                  care to patients by diagnosing and treating foot conditions
+                  effectively, particularly for patients with complex medical
+                  needs like diabetes or vascular issues...
+                </p>
+                <div class="share_readmore">
+                  <button class="btn_readmore">Read More</button>
+                  <button class="btn_share">
+                    <i class="ri-share-fill"></i>
+                  </button>
+                </div>
+              </div>
+            </li>
+
+            <li class="news-item">
+              <div class="article-container">
+                <img
+                  src="hero/Kayblog3.png"
+                  alt="Practitioner carrying out nail clipping on patient"
+                />
+                <h3 class="article-title">
+                  Dress for the job you want...<i class="ri-pencil-line"></i>
+                </h3>
+                <div class="blog_nav_div">
+                  <div class="blog_nav_btn">
+                    <button
+                      onclick="handleClick('previous')"
+                      class="button button--previous"
+                      type="button"
+                    >
+                      PREV
+                    </button>
+                  </div>
+                  <div class="blog_nav_text">
+                    <h4 class="author">
+                      <i class="ri-nurse-line"></i>by Kay Ferguson
+                    </h4>
+                    <h4 class="date">
+                      <i class="ri-calendar-2-line"></i>December 2024
+                    </h4>
+                  </div>
+                  <div class="blog_nav_btn">
+                    <button
+                      onclick="handleClick('next')"
+                      class="button button--next"
+                      type="button"
+                    >
+                      NEXT
+                    </button>
+                  </div>
+                </div>
+                <p class="blog-text">
+                  <span class="date">NEW SCRUBS DAY</span> Dressing in scrubs is
+                  important in healthcare settings because it helps prevent the
+                  spread of infections by providing a clean, easily washable
+                  uniform that minimizes cross-contamination between patients
+                  and healthcare workers, promoting hygiene standards and
+                  patient safety; additionally, the design of scrubs allows for
+                  easy movement and access to necessary tools during medical
+                  procedures....
+                </p>
+                <div class="share_readmore">
+                  <button class="btn_readmore">Read More</button>
+                  <button class="btn_share">
+                    <i class="ri-share-fill"></i>
+                  </button>
+                </div>
+              </div>
+            </li>
+
+            <li class="news-item">
+              <div class="article-container">
+                <img
+                  src="hero/Kayblog2.jpg"
+                  alt="Practitioner carrying out nail clipping on patient"
+                />
+                <h3 class="article-title">
+                  Why basic footcare is not so basic after all...<i
+                    class="ri-pencil-line"
+                  ></i>
+                </h3>
+                <div class="blog_nav_div">
+                  <div class="blog_nav_btn">
+                    <button
+                      onclick="handleClick('previous')"
+                      class="button button--previous"
+                      type="button"
+                    >
+                      PREV
+                    </button>
+                  </div>
+                  <div class="blog_nav_text">
+                    <h4 class="author">
+                      <i class="ri-nurse-line"></i>by Kay Ferguson
+                    </h4>
+                    <h4 class="date">
+                      <i class="ri-calendar-2-line"></i>November 2024
+                    </h4>
+                  </div>
+                  <div class="blog_nav_btn">
+                    <button
+                      onclick="handleClick('next')"
+                      class="button button--next"
+                      type="button"
+                    >
+                      NEXT
+                    </button>
+                  </div>
+                </div>
+                <p class="blog-text">
+                  <span class="date">BASIC FOOTCARE IS IMPORTANT</span>
+                  because it helps prevent pain, discomfort, infections, and
+                  falls by maintaining healthy skin on your feet, keeping nails
+                  trimmed, and wearing proper footwear, which is crucial for
+                  mobility and overall quality of life, especially for older
+                  individuals who are more prone to foot issues; neglecting foot
+                  care can lead to serious complications like injuries from
+                  falls due to poor balance...
+                </p>
+                <div class="share_readmore">
+                  <button class="btn_readmore">Read More</button>
+                  <button class="btn_share">
+                    <i class="ri-share-fill"></i>
+                  </button>
+                </div>
+              </div>
+            </li>
+
+            <li class="news-item">
+              <div class="article-container">
+                <img
+                  src="hero/Kayblog1.png"
+                  alt="Practitioner carrying out nail clipping on patient"
+                />
+                <h3 class="article-title">
+                  "Hello! It's me Kay, your friendly Mobile Foot Health
+                  Practitioner"<i class="ri-pencil-line"></i>
+                </h3>
+                <div class="blog_nav_div">
+                  <div class="blog_nav_btn">
+                    <button
+                      onclick="handleClick('previous')"
+                      class="button button--previous"
+                      type="button"
+                    >
+                      PREV
+                    </button>
+                  </div>
+                  <div class="blog_nav_text">
+                    <h4 class="author">
+                      <i class="ri-nurse-line"></i>by Kay Ferguson
+                    </h4>
+                    <h4 class="date">
+                      <i class="ri-calendar-2-line"></i>October 2024
+                    </h4>
+                  </div>
+                  <div class="blog_nav_btn">
+                    <button
+                      onclick="handleClick('next')"
+                      class="button button--next"
+                      type="button"
+                    >
+                      NEXT
+                    </button>
+                  </div>
+                </div>
+                <p class="blog-text">
+                  <span class="date"
+                    >WHAT EXACTLY IS A FOOT HEALTH PRACTITIONER...</span
+                  >
+                  I'm often asked are you a chiropodist, a podiatrist, a
+                  beautician? The answer is, well 'no'. A Registered Foot Health
+                  Practitioner is an individual that is qualified to carry out
+                  routine foot care treatments. Their services often include
+                  cutting and filing toenails and fingernails, corns and callus,
+                  preventing and treating fungal nail infections and carrying
+                  out general check-ups on feet...
+                </p>
+                <div class="share_readmore">
+                  <button class="btn_readmore">Read More</button>
+                  <button class="btn_share">
+                    <i class="ri-share-fill"></i>
+                  </button>
+                </div>
+              </div>
+            </li>
+
+            <li class="news-item">
+              <div class="article-container">
+                <img
+                  src="hero/ReviewsBlog.jpeg"
+                  alt="Practitioner carrying out nail clipping on patient"
+                />
+                <h3 class="article-title">
+                  We would love to hear your feedback<i
+                    class="ri-pencil-line"
+                  ></i>
+                </h3>
+                <div class="blog_nav_div">
+                  <div class="blog_nav_btn">
+                    <button
+                      onclick="handleClick('previous')"
+                      class="button button--previous"
+                      type="button"
+                    >
+                      PREV
+                    </button>
+                  </div>
+                  <div class="blog_nav_text">
+                    <h4 class="author">
+                      <i class="ri-nurse-line"></i>by Kay Ferguson
+                    </h4>
+                    <h4 class="date">
+                      <i class="ri-calendar-2-line"></i>September 2024
+                    </h4>
+                  </div>
+                  <div class="blog_nav_btn">
+                    <button
+                      onclick="handleClick('next')"
+                      class="button button--next"
+                      type="button"
+                    >
+                      NEXT
+                    </button>
+                  </div>
+                </div>
+
+                <p class="blog-text">
+                  <span class="date"
+                    >WE WOULD LOVE TO HEAR YOUR FEEDBACK...</span
+                  >
+                  Patient experiences are so important to us, they allow us to
+                  adapt and grow. They also let us celebrate our achievements
+                  and apologise when things haven't gone quite right.
+                </p>
+                <div>
+                  <span class="thanks"
+                    ><i class="ri-double-quotes-l"></i>Thank you, from Fern Foot
+                    Care<i class="ri-double-quotes-r"></i
+                  ></span>
+                </div>
+                <div class="share_readmore">
+                  <button class="btn_readmore">Leave Review</button>
+                  <button class="btn_share">
+                    <i class="ri-share-fill"></i>
+                  </button>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- __Responsive blog section end__-->
+    </main>
+
+    <!--================ FOOTER =================-->
+    <footer>
+      <!--Footer Links-->
+      <div class="footer-div">
+        <div class="footer-links">
+          <ul>
+            <li>
+              <a href="HOME.html">
+                <img
+                  src="logo_affiliations/LogoFernFootCareSVG.svg"
+                  alt="Fern Foot Care logo"
+              /></a>
+            </li>
+          </ul>
+
+          <ul>
+            <li><h3>QUICK LINKS</h3></li>
+            <li><a href="TREATMENTS.html">Treatments</a></li>
+            <li><a href="APPOINTMENTS.html">Appointments</a></li>
+            <li><a href="PRICES.html">Prices</a></li>
+            <li><a href="CONTACT_US.html">Contact</a></li>
+            <li><a href="REVIEWS.html">Reviews</a></li>
+            <li><a href="NEWS.html">News</a></li>
+          </ul>
+          <ul>
+            <li><h3>POLICIES</h3></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms & Conditions</a></li>
+            <li><a href="#">Disclaimer</a></li>
+          </ul>
+          <ul>
+            <li><h3>ABOUT US</h3></li>
+            <li><a href="#">Business Bio</a></li>
+            <li><a href="#">Our Vision</a></li>
+            <li><a href="#">Professional Standards</a></li>
+            <li><a href="#">Our Healthcare Associates</a></li>
+          </ul>
+        </div>
+      </div>
+      <!--footer affiliations-->
+      <div>
+        <ul class="affiliations">
+          <li>
+            <a href="https://www.collegefhp.com/"
+              ><img
+                src="logo_affiliations/PNGCollegeoffoothealthpractitioners.png"
+                alt="College of foot health practitioners badge"
+                class="badge"
+            /></a>
+          </li>
+          <li>
+            <a href="https://www.thealliancepsp.com/"
+              ><img
+                src="logo_affiliations/PNGallianceofprivatesectorpractitioners.png"
+                alt="Alliance of private sector practitioners badge"
+                class="badge"
+            /></a>
+          </li>
+          <li>
+            <a href="https://www.nmc.org.uk/"
+              ><img
+                src="logo_affiliations/PNGNursingandmidwiferycouncil.png"
+                alt="Nursing and midwifery council badge"
+                class="badge"
+            /></a>
+          </li>
+          <li>
+            <a href="https://www.hcpc-uk.org/"
+              ><img
+                src="logo_affiliations/PNGhealthandcareprofessionscouncil.png"
+                alt="Health and care professions council badge"
+                class="badge"
+            /></a>
+          </li>
+          <li>
+            <a href="https://www.balens.co.uk/"
+              ><img
+                src="logo_affiliations/Balensinsurance.png"
+                class="badge"
+                alt="Balens insurance badge"
+            /></a>
+          </li>
+        </ul>
+      </div>
+
+      <!--Copyright-->
+      <div>
+        <ul class="copyright">
+          <li><b>Fern Foot Care Ltd &copy;</b></li>
+          <li>All Rights Reserved</li>
+          <li>
+            <a href="https://www.schemadesign.co.uk"
+              >Website by ScheMa Design &copy;</a
+            >
+          </li>
+        </ul>
+      </div>
+    </footer>
+    <!--=============== JavaScript ===============-->
+    <script src="main.js"></script>
+  </body>
+</html>
