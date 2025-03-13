@@ -7,6 +7,10 @@
     <title>INDEX TEST</title>
   </head>
 <body>
+  <main>
+    <h1>
   I am a test page
+    </h1>
+  </main>
 </body>
 </html>
